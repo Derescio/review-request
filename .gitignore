@@ -1,0 +1,13 @@
+# Secrets
+.env
+.env.*
+*.env
+
+# Client data (names, emails) — never commit
+clients.*
+data/
+
+# Dependencies and local databases
+node_modules/
+*.db
+*.sqlite
